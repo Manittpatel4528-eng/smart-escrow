@@ -1,0 +1,19 @@
+{
+  "name": "smart-escrow-backend",
+  "version": "0.1.0",
+  "description": "SmartEscrow backend — escrow API, UPI/IMPS payments, oracles",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"add tests here\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
